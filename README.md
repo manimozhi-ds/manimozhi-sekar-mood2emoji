@@ -5,34 +5,34 @@ A minimal **Streamlit** app that analyzes short text input and returns a **kid-f
 ---
 
 ## 🎯 How It Works
--Input text is cleaned and normalized
--Safety check: profanity or inappropriate words trigger neutral output
--Sentiment analysis using TextBlob polarity
--Rule-based fallback for short or ambiguous sentences
--Output: emoji + kid-friendly explanation
--Teacher Mode shows processing flow diagram and example sentences
+- Input text is cleaned and normalized
+- Safety check: profanity or inappropriate words trigger neutral output
+- Sentiment analysis using TextBlob polarity
+- Rule-based fallback for short or ambiguous sentences
+- Output: emoji + kid-friendly explanation
+- Teacher Mode shows processing flow diagram and example sentences
 
 ---
 
 ## 👩‍🏫 Teaching & Learning
--Demonstrates how text can map to feelings using AI
--Highlights limitations of automated sentiment detection
--Encourages students to experiment with sentences
--Teacher Mode helps explain internal logic visually
+- Demonstrates how text can map to feelings using AI
+- Highlights limitations of automated sentiment detection
+- Encourages students to experiment with sentences
+- Teacher Mode helps explain internal logic visually
 
 ---
 
 ## 💡 What the Project Does and How Kids Learn
 
--Students type a short sentence into the app.
--The app detects the mood (happy, neutral, or sad) using TextBlob polarity and a simple rule-based fallback.
--Returns a kid-friendly emoji (😀 😐 😞) with a one-line explanation.
--Teacher Mode displays a flowchart of the app logic and example sentences for discussion.
--Kids learn:
-  -How AI can classify text by sentiment
-  -Safe ways to handle text input
-  -How algorithms make decisions using simple rules and polarity scores
-  -Basic debugging and critical thinking about AI outputs
+- Students type a short sentence into the app.
+- The app detects the mood (happy, neutral, or sad) using TextBlob polarity and a simple rule-based fallback.
+- Returns a kid-friendly emoji (😀 😐 😞) with a one-line explanation.
+- Teacher Mode displays a flowchart of the app logic and example sentences for discussion.
+- Kids learn:
+  - How AI can classify text by sentiment
+  - Safe ways to handle text input
+  - How algorithms make decisions using simple rules and polarity scores
+  - Basic debugging and critical thinking about AI outputs
 
 ---
 
@@ -51,10 +51,10 @@ A minimal **Streamlit** app that analyzes short text input and returns a **kid-f
 ---
 
 ## ⚠️ Known Limitations
--Lightweight educational tool — not for clinical or emotional assessment
--Profanity filter is simple — may miss variations
--TextBlob may misinterpret sarcasm, slang, or very short phrases
--Only English is supported
+- Lightweight educational tool — not for clinical or emotional assessment
+- Profanity filter is simple — may miss variations
+- TextBlob may misinterpret sarcasm, slang, or very short phrases
+- Only English is supported
 
 ---
 
