@@ -1,12 +1,5 @@
-# Core app
-streamlit>=1.25.0      # For building the web interface
-textblob>=0.17.1       # For sentiment analysis (polarity detection)
-
-# Optional (Teacher Mode diagrams)
-graphviz>=0.20.1       
-
-# Notes:
-1. After installing TextBlob, run:
-     python -m textblob.download_corpora
-   to ensure sentiment corpora are available.
-2. Pin versions to avoid unexpected breaking changes when updating dependencies.
+streamlit>=1.26.0
+textblob==0.17.1
+pandas>=2.0.0
+numpy>=1.27.0
+scikit-learn>=1.3.0
